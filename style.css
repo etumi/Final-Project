@@ -1,0 +1,22 @@
+.navbar-brand {
+    font-weight: 100px;
+    /* padding-left: 620px; */
+    text-align: center;
+    padding-top: 30px;
+    border: black;
+    border-radius: 30px;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+.box {
+    padding-top: 120px;
+    padding-left: 300px;
+    /* align-self: center; */
+}
+
+body {
+    background-image:"" ;
+}
