@@ -1,0 +1,81 @@
+.navbar {
+    background-color: white;;
+    border-bottom: grey;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+}
+
+a h1 .navbar-brand{
+    padding-bottom: 10px;
+}
+
+.Pages {
+    background-image: url("https://i.pinimg.com/564x/27/5a/05/275a053e912c860102cbc4652d70e3bc.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: center;
+    background-color: black;
+}
+
+.box {
+    padding-left: 350px;
+    padding-top: 150px;
+    border: blanchedalmond;
+    border-radius: 10px;
+    background-attachment: url("https://i.pinimg.com/564x/27/5a/05/275a053e912c860102cbc4652d70e3bc.jpg");
+}
+
+#graphbar {
+    padding-top: 150px;
+    padding-right: 20px;
+}
+
+#about {
+    padding-top: 150px;
+    padding-left: 100px;
+    border: powderblue;
+    border-width: 10px;
+}
+
+#genBar {
+    padding-left: 30px;
+}
+
+#hist {
+    padding-left: 30px;
+}
+
+hr #gline{
+    background-color: chocolate;
+}
+.Graphs {
+    background-color: black;
+}
+
+li .nav-link{
+    color: ivory;
+}
+
+.nav-link:hover{
+    background-color: rgb(209, 233, 229);
+    border-radius: 10px;
+}
+/* Media Queries  */
+@media(max-width: 650px){
+    .Pages {
+        background: url("https://i.pinimg.com/564x/27/5a/05/275a053e912c860102cbc4652d70e3bc.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .navbar-expand-lg{
+        background-color: whitesmoke!important;
+    }
+
+    .navbar {
+        max-height: none;
+        padding: inherit;
+        color: rgb(227, 238, 247);
+    }
+};
