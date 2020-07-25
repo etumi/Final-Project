@@ -32,7 +32,6 @@ d3.json("/api/v1.0/genre-count").then((genredata) => {
             fontSize: 24,
             fontStyle: 'normal',
             position: "top", 
-            animation: "easeInQuad"
             // events: ['click']
         },
         maintainAspectRatio: false,
